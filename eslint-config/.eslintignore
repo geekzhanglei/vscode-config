@@ -1,0 +1,21 @@
+# 这里列出忽略代码规范检测的目录和文件
+.DS_Store
+node_modules
+dist/**/*
+build/**/*
+# 类库目录
+**/lib/**/*
+# 插件目录
+**/plugins/**/*
+# 第三方代码目录
+**/vendor/**/*
+# letv 老代码
+**/LTK.js
+**/abc.js
+**/letv_core.js
+**/letv_analytics.js
+# lithe 加载器代码
+**/lithe.js
+**/config.js
+# 压缩文件
+**/*.min.js
